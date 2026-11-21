@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Islamic Academy Attendance",
+    "slug": "islamic-academy-attendance",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#f6f7f2"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSCameraUsageDescription": "The camera scans student QR ID cards for attendance."
+      }
+    },
+    "android": {
+      "permissions": ["CAMERA"],
+      "adaptiveIcon": {
+        "backgroundColor": "#0b5b46"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
